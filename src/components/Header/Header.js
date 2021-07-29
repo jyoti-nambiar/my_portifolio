@@ -15,14 +15,14 @@ function Header() {
         <Container className="header-container" id="header" fluid>
 
 <Row>
-    <Col className="col" lg="auto"><h1>Hi, I am <br /></h1>
+    <Col className="col" lg="auto"><h1>Hi, my name <br /></h1>
                 <h2>Jyoti Nambiar</h2>           
                 <p classname="typedText">I am a {' '}
 
                     <Typical
                             steps={['Web-developer 👩‍💻', 2000,
                             'Daughter 💃', 2000,
-                            'Mother 👩‍👦',2000]}
+                            'Mother 👨‍👩‍👦',2000]}
                             loop={Infinity}
                             wrapper="p"
                         />
