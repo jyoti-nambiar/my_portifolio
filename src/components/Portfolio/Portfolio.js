@@ -1,5 +1,4 @@
 import React from 'react'
-import Mypic from '../../Images/Pic.jpg';
 import Card from 'react-bootstrap/Card'
 function Portfolio() {
     return (
@@ -7,9 +6,8 @@ function Portfolio() {
            <div className="container-fluid pt-5 pb-3" id="portfolio">
         <div className="container">
             <div className="position-relative d-flex align-items-center justify-content-center">
-                <h1 className="display-1 text-uppercase text-white" style={{webkitTextStroke: "1px #dee2e6"}}>Gallery</h1>
-                <h1 className="position-absolute text-uppercase text-primary">My Work</h1>
-            </div>
+                <h1 className="display-1 text-uppercase">My Work</h1>
+                            </div>
            
             <div className="row portfolio-container">
                 <div className="col-lg-4 col-md-6 mb-4 portfolio-item first">
@@ -20,7 +18,7 @@ function Portfolio() {
                         <Card.Text>
                         A vanilla Javascript project for a shopping cart app, Includes CRUD operations for both product list and items in cart. The shopping can be completed and a pdf invoice can be downloaded.    </Card.Text>
                         <Card.Link href="https://jyoti-nambiar.github.io/Shopping-Cart-Project/">Shopping-cart-app</Card.Link>
-                        <Card.Link href="https://github.com/jyoti-nambiar/Shopping-Cart-Project.git">Github Repositry</Card.Link>
+                        <Card.Link href="https://github.com/jyoti-nambiar/Shopping-Cart-Project.git" >Github Repositry</Card.Link>
                     </Card.Body>
                     </Card>
                 </div>

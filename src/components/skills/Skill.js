@@ -1,14 +1,14 @@
 import React from 'react'
-
+import './Skill.css'
 function Skill() {
     return (
         
-            <div class="container-fluid py-5" id="skill">
+        <div class="container-fluid py-5" id="skill">
         <div class="container">
-            <div className="about-div">
-            <h1 id="outline-Text">Skills</h1>
-            <h2 id="heading-text">My Skills</h2>
-        </div>
+        <div className="position-relative d-flex align-items-center justify-content-center">
+                        <h1 className="display-1 text-uppercase">Skills</h1>
+                        </div>
+                
         <div class="container-fluid py-4" id="skill">
                     <div class="row align-items-center">
                 <div class="col-md-6">

@@ -3,10 +3,11 @@ import React from 'react'
 function Education() {
     return (
         <>
-            <div className="about-div">
-            <h1 id="outline-Text">Experience</h1>
-            <h2 id="heading-text">Education & Experience</h2>
-        </div> 
+            <div className="position-relative d-flex align-items-center justify-content-center">
+                        <h1 className="display-1 text-uppercase">Education & Experience</h1>
+                        
+                    </div>
+                
         <div className="container-fluid py-5" id="qualification">
         <div className="container">
                         <div className="row align-items-center">

@@ -1,0 +1,120 @@
+/*----------------------- About section----------------------- */
+
+#about-me{
+    position:relative;
+    
+    }
+    
+    
+    .about-div{
+      position:relative;
+     margin-top:0.75rem;
+      display:flex;
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+      text-align: center;
+      }
+      #outline-Text{
+        color: white;
+        text-transform: uppercase;
+        font-size:10em;
+        text-shadow: -1px 1px 0 #B6D0E2,
+                      1px 1px 0 #B6D0E2,
+                      1px -1px 0 #B6D0E2;
+                      
+              
+      }
+    
+      #skill{
+    margin:10px 20px;
+    
+      }
+    
+    
+     #heading-text{
+    position:absolute;
+    top:32%;
+    color:#1589FF;
+    font-size:3.5em;
+    text-transform: uppercase;
+    
+      }
+    
+    
+    .display-1{
+    font-size: 2rem;
+    color:#1589FF;
+    margin-bottom: 2.5rem;
+    
+      }
+      
+     
+      .myLaptopPic{
+      grid-area:ad;
+      margin:10px 10px;
+      width:100%;
+     min-width: 150px;
+      height: 400px;
+      margin:10px auto;
+      
+      }
+    
+      .about-me-div{
+        grid-area:main;
+      display:grid;  
+    text-align: left;
+    margin:20px;
+    grid-template-rows: 50px 100px
+      
+      }
+    
+    
+      .detail-div{
+        margin-top:20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2.5rem;
+         }
+
+
+/*----------------------Media queries for responsive design----------------------- */
+
+
+
+         @media screen and (min-width: 500px) {
+
+                #about-me{
+              top:20px;
+            }
+        
+                       
+        .detail-div{
+        margin:0 auto;
+        
+            }
+        
+              }
+        
+        
+        
+              @media screen and (max-width: 768px) {
+        
+               
+                #about-me{
+                  top:200px;
+                  margin:0 auto;
+                }
+            
+                .short-intro{
+                  width:75%;
+                  height:auto;
+                }
+        
+        
+                .detail-div{
+                  margin:2.5rem auto;
+                  width:auto;
+                      }
+        
+              }

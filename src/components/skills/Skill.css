@@ -1,0 +1,20 @@
+/*----------------------- Skills section----------------------- */
+
+  
+.progress {
+    border-radius: 10px;
+  }
+  
+  .progress .progress-bar {
+    width: 0;
+    border-radius: 10px;
+    transition: 2s;
+  }
+  #skill{
+    margin:10px 20px;
+
+  }
+
+  .ex-me{
+    margin-top: 35px;
+  }

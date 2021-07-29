@@ -6,6 +6,8 @@ import Col from 'react-bootstrap/Col'
 import Typical from 'react-typical'
 import Image from 'react-bootstrap/Image'
 import mypic from '../../Images/MyPic.jpg'
+import './Header.css';
+
 
 function Header() {
     return (

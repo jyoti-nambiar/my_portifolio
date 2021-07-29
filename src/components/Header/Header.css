@@ -1,0 +1,90 @@
+/*----------------------- header section----------------------- */
+
+
+#header{
+    background-color: #1589FF;
+   padding:20px;
+  
+  }
+  
+  
+  .header-container{
+      display:flex;
+   flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+    }
+    
+  .header-container,.typedText,h1{
+  color: #d1e0e0;
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  word-spacing: 5px;
+    }
+  
+    h2{
+      text-transform: uppercase;
+    }
+  
+  .typedText{
+  line-height: 3.5rem;
+  }
+  
+  .myImg{
+    
+    Width:20rem;
+    height:20rem;
+    border:5px solid blue;
+   margin-bottom: 20px;
+  }
+  
+  .col{
+    
+    margin: 75px;
+  }
+  
+  .link-button{
+    margin-top: 10px;
+    display:inline-block;
+    background-color: #FFFF;
+    color: 101010;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 25px;
+    font-family: 'sans-serif';
+  }
+  .link-button:hover{
+    background-color:#E8E8E8 ;
+  }
+  
+  @media screen and (min-width: 500px) {
+
+    .header-container{
+        justify-items: center;
+        align-items: center;
+
+    }
+
+
+    #header{
+ position: relative;
+ top:10px;
+height:75vh;
+
+    }
+
+.header-text{
+margin-bottom:2.5rem;
+
+}
+  }
+
+
+  @media screen and (min-width: 1400px) {
+
+    #header{
+        height:50vh;
+    }
+
+  }
