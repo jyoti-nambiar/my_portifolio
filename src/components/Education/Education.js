@@ -40,7 +40,7 @@ function Education() {
                     <div className="border-left border-primary pt-2 pl-4 ml-2">
                         <div className="position-relative ex-me mb-4">
                             <i className="far fa-dot-circle text-primary position-absolute" style={{top: "2px", left: "-35px", fontSize: "22px"}}></i>
-                            <h5 className="font-weight-bold mb-1">Web-developer Itern</h5>
+                            <h5 className="font-weight-bold mb-1">Web-developer Intern</h5>
                             <p className="mb-2"><strong>Teleoffice ViewCom AB</strong> | <small> Stockholm, Sweden</small> </p>
                             <p>
                                 <ul>
